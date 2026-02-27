@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">Portfolio</a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#works" class="nav-link">Works</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+				<li><a href="gallery.html" class="nav-link">Gallery</a></li>
+				<li><a href="study.html" class="nav-link">Study</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+    <!-- Home / Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="profile-image">
+                    <!-- EDIT: Replace "your-photo.jpg" with your actual photo file name -->
+                    <img src="ME.png	" alt="Your Name" id="profile-img">
+                </div>
+                <div class="hero-text">
+                    <!-- EDIT: Change to your name -->
+                    <h1>Ellie Reuben S Domider</h1>
+                    <!-- EDIT: Change to your title/profession -->
+                    <p class="hero-subtitle">Programmer & Hardware Engineer</p>
+                    <!-- EDIT: Add your brief introduction -->
+                    <p class="hero-description">
+                        Welcome to my portfolio! I'm passionate about creating circuits and arudiono projects. 
+                        Feel free to explore my work and get in touch.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#works" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <p class="section-subtitle">Technologies and tools I work with</p>
+            
+            <div class="skills-grid">
+                <!-- EDIT: Add, remove, or modify skills as needed -->
+                <div class="skill-card">
+                    <i class="fab fa-html5 skill-icon"></i>
+                    <h3>HTML5</h3>
+                    <p>Building semantic and accessible web structures</p>
+                </div>
+                
+				<div class="skill-card">
+					<i class="fas fa-file-code skill-icon"></i>
+					<h3>C++</h3>
+					<p>High-performance systems & game development</p>
+				</div>
+                
+                <div class="skill-card">
+                    <i class="fab fa-js skill-icon"></i>
+                    <h3>Java</h3>
+                    <p>Adding interactivity and dynamic functionality</p>
+                </div>
+                
+				<div class="skill-card">
+					<i class="fas fa-cube skill-icon"></i>
+					<h3>Blender</h3>
+					<p>3D modeling, animation & rendering</p>
+				</div>
+                
+				<div class="skill-card">
+					<i class="fas fa-microchip skill-icon"></i>
+					<h3>Arduino IDE</h3>
+					<p>Microcontroller programming & electronics</p>
+				</div>
+                
+                <div class="skill-card">
+                    <i class="fas fa-database skill-icon"></i>
+                    <h3>Databases</h3>
+                    <p>Working with SQL and NoSQL databases</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <h2 class="section-title">Achievements</h2>
+            <p class="section-subtitle">My accomplishments and milestones</p>
+            
+            <div class="achievements-timeline">
+                <!-- EDIT: Add your achievements here - copy/paste the achievement-item block for more -->
+                
+                <div class="achievement-item">
+                    <div class="achievement-date">2026</div>
+                    <div class="achievement-content">
+                        <h3>With High Honor</h3>
+                        <p>1st semister 2nd quarter</p>
+                    </div>
+                </div>
+                
+                <div class="achievement-item">
+                    <div class="achievement-date">2025</div>
+                    <div class="achievement-content">
+                        <h3>With High Honor</h3>
+                        <p>1st semster 1st quarter</p>
+                    </div>
+                </div>
+                
+                
+                <!-- Add more achievements by copying the block above -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Previous Works Section -->
+    <section id="works" class="works">
+        <div class="container">
+            <h2 class="section-title">Previous Works</h2>
+            <p class="section-subtitle">Some of my recent projects</p>
+            
+            <div class="works-grid">
+                <!-- EDIT: Add your projects here - copy/paste the work-card block for more -->
+                
+                <div class="work-card">
+                    <!-- EDIT: Replace with your project screenshot -->
+                    <div class="work-image">
+                        <img src="tinker.png" alt="Project 1">
+                    </div>
+                    <div class="work-info">
+                        <h3>Arudino LCD</h3>
+                        <p>A crystal led run in by a Arduino</p>
+                        <div class="work-tags">
+                            <span class="tag">C++</span>
+                            <span class="tag">Arudino</span>
+                        </div>
+                        <div class="work-links">
+    <a href="#" class="work-link work-link-sm"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+    <a href="#" class="work-link work-link-sm"><i class="fas fa-file-code"></i> C++</a>
+</div>
+                    </div>
+                </div>
+                
+                <div class="work-card">
+                    <div class="work-image">
+                        <img src="room.png" alt="Project 2">
+                    </div>
+                    <div class="work-info">
+                        <h3>Classroom</h3>
+                        <p>This is a recreation of a classroom in MAPPUA i created using blender</p>
+                        <div class="work-tags">
+                            <span class="tag">BLENDER</span>
+                        </div>
+                        <div class="work-links">
+                            <a href="#" class="work-link"><i class="devicon-blender-original"></i> 3D</a>	
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="work-card">
+                    <div class="work-image">
+                        <img src="calculator.png" alt="Project 3">
+                    </div>
+                    <div class="work-info">
+                        <h3>Calculator</h3>
+                        <p>A short but simple Calculator using java</p>
+                        <div class="work-tags">
+                            <span class="tag">Java</span>
+                        </div>
+                        <div class="work-links">
+                            <a href="#" class="work-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>	
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Add more projects by copying the work-card block above -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Let's work together on your next project</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    
+                    <!-- EDIT: Update with your contact details -->
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>erDomider@mcm.edu.ph</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>09691924809</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Davao city, Philippines</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <!-- EDIT: Update with your social media links -->
+							<a href="https://www.linkedin.com/learning/career-journey?u=89213594" class="social-link" title="N/a" target="_blank" rel="noopener">
+    <i class="fab fa-linkedin-in"></i></a>
+							<a href="https://github.com/un457" class="social-link" title="GitHub" target="_blank" rel="noopener">
+    <i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/fuggin_duck/" class="social-link" title="Instagram" target="_blank" rel="noopener">
+  <i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Send Me a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Your Name. All rights reserved.</p>
+          <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="nav-link">If you wish to learn more about me</a></li>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

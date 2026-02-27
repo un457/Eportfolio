@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery - My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="gallery.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="Eportfolio.html" class="nav-logo">Portfolio</a>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Gallery Header -->
+    <section class="gallery-header">
+        <div class="container">
+            <h1 class="gallery-title">Photo Gallery</h1>
+            <p class="gallery-subtitle">A collection of moments and memories</p>
+        </div>
+    </section>
+
+    <!-- Photo Collage Gallery -->
+    <section class="gallery-section">
+        <div class="container">
+            <!-- EDIT: Add your photos here - copy/paste photo-item blocks for more photos -->
+            <div class="collage-grid">
+                
+                <!-- Large featured photo -->
+                <div class="photo-item photo-large">
+                    <div class="photo-wrapper">
+                        <!-- EDIT: Replace with your photo filename -->
+                        <img src="photo(2).jpg" alt="Photo 1">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">
+                                <h3>Caption Title</h3>
+                                <p>Description of this photo</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Medium photo -->
+                <div class="photo-item photo-medium">
+                    <div class="photo-wrapper">
+                        <img src="photo(1).jpg" alt="Photo 2">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">
+                                <h3>Caption Title</h3>
+                                <p>Description</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Small photo -->
+                <div class="photo-item photo-small">
+                    <div class="photo-wrapper">
+                        <img src="photo(3).jpg" alt="Photo 3">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">
+                                <h3>Caption</h3>
+                                <p>Description</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Small photo -->
+                <div class="photo-item photo-small">
+                    <div class="photo-wrapper">
+                        <img src="photo(4).jpg" alt="Photo 4">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">
+                                <h3>Caption</h3>
+                                <p>Description</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Medium photo -->
+                <div class="photo-item photo-medium">
+                    <div class="photo-wrapper">
+                        <img src="images/gallery/photo5.jpg" alt="Photo 5">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">
+                                <h3>Caption Title</h3>
+                                <p>Description</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Large featured photo -->
+                <div class="photo-item photo-large">
+                    <div class="photo-wrapper">
+                        <img src="images/gallery/photo6.jpg" alt="Photo 6">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">
+                                <h3>Caption Title</h3>
+                                <p>Description of this photo</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Small photo -->
+                <div class="photo-item photo-small">
+                    <div class="photo-wrapper">
+                        <img src="images/gallery/photo7.jpg" alt="Photo 7">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">
+                                <h3>Caption</h3>
+                                <p>Description</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Small photo -->
+                <div class="photo-item photo-small">
+                    <div class="photo-wrapper">
+                        <img src="images/gallery/photo8.jpg" alt="Photo 8">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">
+                                <h3>Caption</h3>
+                                <p>Description</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Medium photo -->
+                <div class="photo-item photo-medium">
+                    <div class="photo-wrapper">
+                        <img src="images/gallery/photo9.jpg" alt="Photo 9">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">
+                                <h3>Caption Title</h3>
+                                <p>Description</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add more photos by copying the photo-item blocks above -->
+                <!-- You can use photo-large, photo-medium, or photo-small classes -->
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <span class="lightbox-prev"><i class="fas fa-chevron-left"></i></span>
+        <span class="lightbox-next"><i class="fas fa-chevron-right"></i></span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div class="lightbox-caption" id="lightbox-caption"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Your Name. All rights reserved.</p>
+            <p><a href="index.html" style="color: #6366f1;">Back to Portfolio</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="gallery.js"></script>
+</body>
+</html>
